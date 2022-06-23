@@ -1,0 +1,38 @@
+pip install nltk
+pip install numpy
+pip install tensorflow
+pip install tflearn
+python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
+
+**IN CMD:
+to change directory in cmd only ==> d:==>D:\>cd Py pro==>cd chatBot English Synonyms
+>PYTHON MAIN.PY > HERE YOU CAN SEE YOUR JSON IN CMD!
+
+{'intents': [{'tag': 'geeting', 'patterns': ['hi', 'how are you ?', 'good day'], 'responses': ["what's up", 'good day pal', 'Hi tehre, how can I help ?'], 'context_set': ''}, {'tag': 'goodbye', 'patterns': ['see you ', 'goodbye', 'so long'], 'responses': ['see you later', 'Bye For Now', 'Chio'], 'context_set': ''}]}
+
+D:\Py Pro\chatBot English Synonyms>PYTHON MAIN.PY
+
+====================================
+
+
+for intent in data["intents"]: #loop through intents 
+    for pattern in intent["patterns"]: #stemming takes each word in our pattern and bring it to the root word
+
+
+to run the code:in cmd : python main.py 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
